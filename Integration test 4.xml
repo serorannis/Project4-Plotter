@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AWTTestScript>
+  <component class="javax.swing.JButton" id="Cancel" index="3" parent="JPanel Instance" text="Cancel" window="Open" />
+  <component class="javax.swing.JButton" id="D&lt;/u&gt;raw&lt;/body" index="0" parent="JPanel Instance 5" text="D&lt;/u&gt;raw&lt;/body" window="Math graphics 2.0.1 " />
+  <component class="javax.swing.JFileChooser" id="JFileChooser Instance" index="0" parent="JPanel Instance 4" window="Open" />
+  <component class="javax.swing.JLayeredPane" id="JLayeredPane Instance" index="1" parent="JRootPane Instance" window="Open" />
+  <component class="javax.swing.JPanel" id="JPanel Instance" index="4" parent="JPanel Instance 2" window="Open" />
+  <component class="javax.swing.JPanel" id="JPanel Instance 2" index="2" parent="JPanel Instance 3" window="Open" />
+  <component class="javax.swing.JPanel" id="JPanel Instance 3" index="2" parent="JFileChooser Instance" window="Open" />
+  <component class="javax.swing.JPanel" id="JPanel Instance 4" index="0" parent="JLayeredPane Instance" window="Open" />
+  <component class="javax.swing.JPanel" id="JPanel Instance 5" index="3" parent="JPanel Instance 4" window="Math graphics 2.0.1 " />
+  <component class="javax.swing.JRootPane" id="JRootPane Instance" index="0" parent="Open" />
+  <component class="com.main.Visualizer" id="Math graphics 2.0.1 " root="true" title="Math graphics 2.0.1 " />
+  <component class="javax.swing.JDialog" id="Open" parent="Math graphics 2.0.1 " title="Open" />
+  <launch args="[]" class="com.main.Main" classpath="Project4-Plotter.jar" method="main" />
+  <sequence>
+    <action args="Math graphics 2.0.1 ,Save|Save image" method="actionSelectMenuItem" />
+    <wait args="Open" class="abbot.tester.ComponentTester" method="assertComponentShowing" />
+    <action args="Cancel" class="javax.swing.AbstractButton" method="actionClick" />
+    <wait args="Open" class="abbot.tester.ComponentTester" invert="true" method="assertComponentShowing" />
+    <action args="Math graphics 2.0.1 ,Save|Export data" method="actionSelectMenuItem" />
+    <wait args="Open" class="abbot.tester.ComponentTester" method="assertComponentShowing" />
+    <action args="Cancel" class="javax.swing.AbstractButton" method="actionClick" />
+    <wait args="Open" class="abbot.tester.ComponentTester" invert="true" method="assertComponentShowing" />
+  </sequence>
+  <terminate />
+</AWTTestScript>
+

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AWTTestScript>
+  <component class="javax.swing.JButton" id="&gt;" index="2" parent="JPanel Instance" text="&gt;" window="Color panel" />
+  <component class="javax.swing.JButton" id="&gt; 2" index="2" parent="JPanel Instance 9" text="&gt;" window="Color panel" />
+  <component class="javax.swing.JButton" id="&gt; 3" index="2" parent="JPanel Instance 10" text="&gt;" window="Color panel" />
+  <component class="javax.swing.JButton" id="&gt; 4" index="2" parent="JPanel Instance 11" text="&gt;" window="Color panel" />
+  <component class="javax.swing.JButton" id="&gt; 5" index="2" parent="JPanel Instance 12" text="&gt;" window="Color panel" />
+  <component class="javax.swing.JButton" id="&gt; 6" index="2" parent="JPanel Instance 13" text="&gt;" window="Color panel" />
+  <component class="javax.swing.ColorChooserDialog" id="Choose color" parent="Color panel" title="Choose color" />
+  <component class="com.main.Colorpanel" id="Color panel" parent="shared frame" title="Color panel" />
+  <component class="javax.swing.JTabbedPane" id="ColorChooser.tabPane" index="0" name="ColorChooser.tabPane" parent="JColorChooser Instance" window="Choose color" />
+  <component class="javax.swing.JButton" id="D&lt;/u&gt;raw&lt;/body" index="0" parent="JPanel Instance 14" text="D&lt;/u&gt;raw&lt;/body" window="Math graphics 2.0.1 " />
+  <component class="javax.swing.colorchooser.DefaultSwatchChooserPanel" id="DefaultSwatchChooserPanel Instance" index="0" parent="JPanel Instance 6" window="Choose color" />
+  <component class="javax.swing.JColorChooser" id="JColorChooser Instance" index="0" parent="JPanel Instance 7" window="Choose color" />
+  <component class="javax.swing.JLayeredPane" id="JLayeredPane Instance" index="1" parent="JRootPane Instance" window="Color panel" />
+  <component class="javax.swing.JLayeredPane" id="JLayeredPane Instance 2" index="1" parent="JRootPane Instance 2" window="Choose color" />
+  <component class="javax.swing.JPanel" id="JPanel Instance" index="0" parent="JPanel Instance 2" window="Color panel" />
+  <component class="javax.swing.JPanel" id="JPanel Instance 10" index="2" parent="JPanel Instance 2" window="Color panel" />
+  <component class="javax.swing.JPanel" id="JPanel Instance 11" index="3" parent="JPanel Instance 2" window="Color panel" />
+  <component class="javax.swing.JPanel" id="JPanel Instance 12" index="4" parent="JPanel Instance 2" window="Color panel" />
+  <component class="javax.swing.JPanel" id="JPanel Instance 13" index="5" parent="JPanel Instance 2" window="Color panel" />
+  <component class="javax.swing.JPanel" id="JPanel Instance 14" index="3" parent="JPanel Instance 7" window="Math graphics 2.0.1 " />
+  <component class="javax.swing.JPanel" id="JPanel Instance 2" index="0" parent="JPanel Instance 3" window="Color panel" />
+  <component class="javax.swing.JPanel" id="JPanel Instance 3" index="0" parent="JLayeredPane Instance" window="Color panel" />
+  <component class="javax.swing.JPanel" id="JPanel Instance 4" index="0" parent="JPanel Instance 5" window="Choose color" />
+  <component class="javax.swing.JPanel" id="JPanel Instance 5" index="0" parent="DefaultSwatchChooserPanel Instance" window="Choose color" />
+  <component class="javax.swing.JPanel" id="JPanel Instance 6" index="0" parent="ColorChooser.tabPane" window="Choose color" />
+  <component class="javax.swing.JPanel" id="JPanel Instance 7" index="0" parent="JLayeredPane Instance 2" window="Choose color" />
+  <component class="javax.swing.JPanel" id="JPanel Instance 8" index="1" parent="JPanel Instance 7" window="Choose color" />
+  <component class="javax.swing.JPanel" id="JPanel Instance 9" index="1" parent="JPanel Instance 2" window="Color panel" />
+  <component class="javax.swing.JRootPane" id="JRootPane Instance" index="0" parent="Color panel" />
+  <component class="javax.swing.JRootPane" id="JRootPane Instance 2" index="0" parent="Choose color" />
+  <component class="javax.swing.colorchooser.MainSwatchPanel" id="MainSwatchPanel Instance" index="0" parent="JPanel Instance 4" window="Choose color" />
+  <component class="com.main.Visualizer" id="Math graphics 2.0.1 " root="true" title="Math graphics 2.0.1 " />
+  <component class="javax.swing.JButton" id="OK" index="0" parent="JPanel Instance 8" text="OK" window="Choose color" />
+  <component class="javax.swing.JButton" id="Save" index="6" parent="JPanel Instance 2" text="Save" window="Color panel" />
+  <component class="javax.swing.SwingUtilities$SharedOwnerFrame" id="shared frame" root="true" title="" />
+  <launch args="[]" class="com.main.Main" classpath="Project4-Plotter.jar" method="main" />
+  <sequence>
+    <action args="Math graphics 2.0.1 ,Colors|Change colors" method="actionSelectMenuItem" />
+    <wait args="Color panel" class="abbot.tester.ComponentTester" method="assertComponentShowing" />
+    <action args="&gt;" class="javax.swing.AbstractButton" method="actionClick" />
+    <wait args="Choose color" class="abbot.tester.ComponentTester" method="assertComponentShowing" />
+    <action args="MainSwatchPanel Instance,(175%2c68)" class="javax.swing.colorchooser.MainSwatchPanel" method="actionClick" />
+    <action args="OK" class="javax.swing.AbstractButton" method="actionClick" />
+    <wait args="Choose color" class="abbot.tester.ComponentTester" invert="true" method="assertComponentShowing" />
+    <action args="&gt; 2" class="javax.swing.AbstractButton" method="actionClick" />
+    <wait args="Choose color" class="abbot.tester.ComponentTester" method="assertComponentShowing" />
+    <action args="MainSwatchPanel Instance,(83%2c47)" class="javax.swing.colorchooser.MainSwatchPanel" method="actionClick" />
+    <action args="OK" class="javax.swing.AbstractButton" method="actionClick" />
+    <wait args="Choose color" class="abbot.tester.ComponentTester" invert="true" method="assertComponentShowing" />
+    <action args="&gt; 3" class="javax.swing.AbstractButton" method="actionClick" />
+    <wait args="Choose color" class="abbot.tester.ComponentTester" method="assertComponentShowing" />
+    <action args="MainSwatchPanel Instance,(336%2c51)" class="javax.swing.colorchooser.MainSwatchPanel" method="actionClick" />
+    <action args="OK" class="javax.swing.AbstractButton" method="actionClick" />
+    <wait args="Choose color" class="abbot.tester.ComponentTester" invert="true" method="assertComponentShowing" />
+    <action args="&gt; 4" class="javax.swing.AbstractButton" method="actionClick" />
+    <wait args="Choose color" class="abbot.tester.ComponentTester" method="assertComponentShowing" />
+    <action args="MainSwatchPanel Instance,(189%2c91)" class="javax.swing.colorchooser.MainSwatchPanel" method="actionClick" />
+    <action args="OK" class="javax.swing.AbstractButton" method="actionClick" />
+    <wait args="Choose color" class="abbot.tester.ComponentTester" invert="true" method="assertComponentShowing" />
+    <action args="&gt; 5" class="javax.swing.AbstractButton" method="actionClick" />
+    <wait args="Choose color" class="abbot.tester.ComponentTester" method="assertComponentShowing" />
+    <action args="MainSwatchPanel Instance,(196%2c7)" class="javax.swing.colorchooser.MainSwatchPanel" method="actionClick" />
+    <action args="OK" class="javax.swing.AbstractButton" method="actionClick" />
+    <wait args="Choose color" class="abbot.tester.ComponentTester" invert="true" method="assertComponentShowing" />
+    <action args="&gt; 6" class="javax.swing.AbstractButton" method="actionClick" />
+    <wait args="Choose color" class="abbot.tester.ComponentTester" method="assertComponentShowing" />
+    <action args="MainSwatchPanel Instance,(84%2c20)" class="javax.swing.colorchooser.MainSwatchPanel" method="actionClick" />
+    <action args="OK" class="javax.swing.AbstractButton" method="actionClick" />
+    <wait args="Choose color" class="abbot.tester.ComponentTester" invert="true" method="assertComponentShowing" />
+    <action args="Save" class="javax.swing.AbstractButton" method="actionClick" />
+    <wait args="Color panel" class="abbot.tester.ComponentTester" invert="true" method="assertComponentShowing" />
+  </sequence>
+  <terminate />
+</AWTTestScript>
+

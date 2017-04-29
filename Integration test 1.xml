@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AWTTestScript>
+  <component class="javax.swing.JButton" id="D&lt;/u&gt;raw&lt;/body" index="0" parent="JPanel Instance" text="D&lt;/u&gt;raw&lt;/body" window="Math graphics 2.0.1 " />
+  <component class="com.main.DigitTextField" id="DigitTextField Instance" index="2" parent="JPanel Instance 4" window="Math graphics 2.0.1 " />
+  <component class="com.main.DigitTextField" id="DigitTextField Instance 2" index="4" parent="JPanel Instance 4" window="Math graphics 2.0.1 " />
+  <component class="com.main.DigitTextField" id="DigitTextField Instance 3" index="6" parent="JPanel Instance 5" window="Math graphics 2.0.1 " />
+  <component class="com.main.DigitTextField" id="DigitTextField Instance 4" index="8" parent="JPanel Instance 5" window="Math graphics 2.0.1 " />
+  <component class="com.main.FunctionTextField" id="FunctionTextField Instance" index="1" parent="JPanel Instance 3" window="Math graphics 2.0.1 " />
+  <component class="javax.swing.JLayeredPane" id="JLayeredPane Instance" index="1" parent="JRootPane Instance" window="Math graphics 2.0.1 " />
+  <component class="javax.swing.JPanel" id="JPanel Instance" index="3" parent="JPanel Instance 2" window="Math graphics 2.0.1 " />
+  <component class="javax.swing.JPanel" hOrder="0" id="JPanel Instance 2" index="0" parent="JLayeredPane Instance" window="Math graphics 2.0.1 " />
+  <component class="javax.swing.JPanel" id="JPanel Instance 3" index="1" parent="JPanel Instance 2" window="Math graphics 2.0.1 " />
+  <component class="javax.swing.JPanel" id="JPanel Instance 4" index="2" parent="JPanel Instance 2" window="Math graphics 2.0.1 " />
+  <component class="javax.swing.JPanel" id="JPanel Instance 5" index="3" parent="JPanel Instance 2" window="Math graphics 2.0.1 " />
+  <component class="javax.swing.JRootPane" id="JRootPane Instance" index="0" parent="Math graphics 2.0.1 " />
+  <component class="com.main.Visualizer" id="Math graphics 2.0.1 " root="true" title="Math graphics 2.0.1 " />
+  <launch args="[]" class="com.main.Main" classpath="Project4-Plotter.jar" method="main" />
+  <sequence>
+    <action args="FunctionTextField Instance,6,0" class="javax.swing.text.JTextComponent" method="actionSelectText" />
+    <action args="FunctionTextField Instance,sin(x)" method="actionKeyString" />
+    <action args="DigitTextField Instance,3,0" class="javax.swing.text.JTextComponent" method="actionSelectText" />
+    <action args="DigitTextField Instance,-" method="actionKeyString" />
+    <action args="DigitTextField Instance,caret-end-line" class="javax.swing.JComponent" method="actionActionMap" />
+    <event component="DigitTextField Instance" keyCode="VK_INSERT" kind="KEY_RELEASED" type="KeyEvent" />
+    <action args="DigitTextField Instance,VK_NUM_LOCK" method="actionKeyStroke" />
+    <action args="DigitTextField Instance,-" method="actionKeyString" />
+    <action args="DigitTextField Instance,VK_NUMPAD1" method="actionKeyStroke" />
+    <action args="DigitTextField Instance,VK_NUMPAD0" method="actionKeyStroke" />
+    <action args="DigitTextField Instance,delete-previous" class="javax.swing.JComponent" method="actionActionMap" />
+    <action args="DigitTextField Instance,delete-previous" class="javax.swing.JComponent" method="actionActionMap" />
+    <action args="DigitTextField Instance,delete-previous" class="javax.swing.JComponent" method="actionActionMap" />
+    <action args="DigitTextField Instance,VK_NUMPAD1" method="actionKeyStroke" />
+    <action args="DigitTextField Instance,VK_NUMPAD0" method="actionKeyStroke" />
+    <action args="DigitTextField Instance,VK_TAB" method="actionKeyStroke" />
+    <event component="DigitTextField Instance 2" keyCode="VK_SHIFT" kind="KEY_PRESSED" modifiers="SHIFT_MASK" type="KeyEvent" />
+    <action args="DigitTextField Instance 2,selection-end-line" class="javax.swing.JComponent" method="actionActionMap" />
+    <event component="DigitTextField Instance 2" keyCode="VK_END" kind="KEY_RELEASED" type="KeyEvent" />
+    <action args="DigitTextField Instance 2,VK_NUMPAD1" method="actionKeyStroke" />
+    <action args="DigitTextField Instance 2,VK_NUMPAD0" method="actionKeyStroke" />
+    <action args="D&lt;/u&gt;raw&lt;/body" class="javax.swing.AbstractButton" method="actionClick" />
+    <event component="D&lt;/u&gt;raw&lt;/body" keyCode="VK_SHIFT" kind="KEY_PRESSED" modifiers="SHIFT_MASK" type="KeyEvent" />
+    <event component="D&lt;/u&gt;raw&lt;/body" keyCode="VK_SHIFT" kind="KEY_RELEASED" type="KeyEvent" />
+    <sequence>
+      <action args="Math graphics 2.0.1 ,Visualization|Polar 2D" method="actionSelectMenuItem" />
+      <action args="FunctionTextField Instance,1,0" class="javax.swing.text.JTextComponent" method="actionSelectText" />
+      <action args="FunctionTextField Instance,VK_NUM_LOCK" method="actionKeyStroke" />
+      <action args="FunctionTextField Instance,VK_NUMPAD1" method="actionKeyStroke" />
+      <action args="FunctionTextField Instance,VK_NUMPAD0" method="actionKeyStroke" />
+      <action args="DigitTextField Instance,3,0" class="javax.swing.text.JTextComponent" method="actionSelectText" />
+      <action args="DigitTextField Instance,-" method="actionKeyString" />
+      <action args="DigitTextField Instance,VK_NUMPAD1" method="actionKeyStroke" />
+      <action args="DigitTextField Instance,VK_NUMPAD0" method="actionKeyStroke" />
+      <action args="DigitTextField Instance,VK_NUMPAD0" method="actionKeyStroke" />
+      <action args="DigitTextField Instance,VK_TAB" method="actionKeyStroke" />
+      <event component="DigitTextField Instance 2" keyCode="VK_SHIFT" kind="KEY_PRESSED" modifiers="SHIFT_MASK" type="KeyEvent" />
+      <action args="DigitTextField Instance 2,selection-begin-line" class="javax.swing.JComponent" method="actionActionMap" />
+      <event component="DigitTextField Instance 2" keyCode="VK_SHIFT" kind="KEY_RELEASED" type="KeyEvent" />
+      <action args="DigitTextField Instance 2,VK_NUMPAD1" method="actionKeyStroke" />
+      <action args="DigitTextField Instance 2,VK_NUMPAD0" method="actionKeyStroke" />
+      <action args="DigitTextField Instance 2,VK_NUMPAD0" method="actionKeyStroke" />
+      <action args="D&lt;/u&gt;raw&lt;/body" class="javax.swing.AbstractButton" method="actionClick" />
+      <action args="Math graphics 2.0.1 ,Visualization|Cartesian 3D" method="actionSelectMenuItem" />
+      <action args="FunctionTextField Instance,8,7" class="javax.swing.text.JTextComponent" method="actionSelectText" />
+      <event component="FunctionTextField Instance" keyCode="VK_SHIFT" kind="KEY_PRESSED" modifiers="SHIFT_MASK" type="KeyEvent" />
+      <action args="FunctionTextField Instance,selection-begin-line" class="javax.swing.JComponent" method="actionActionMap" />
+      <event component="FunctionTextField Instance" keyCode="VK_SHIFT" kind="KEY_RELEASED" type="KeyEvent" />
+      <action args="FunctionTextField Instance,cos(x+y)" method="actionKeyString" />
+      <action args="DigitTextField Instance,6,0" class="javax.swing.text.JTextComponent" method="actionSelectText" />
+      <action args="DigitTextField Instance,-" method="actionKeyString" />
+      <action args="DigitTextField Instance,VK_NUMPAD1" method="actionKeyStroke" />
+      <action args="DigitTextField Instance,VK_TAB" method="actionKeyStroke" />
+      <event component="DigitTextField Instance 2" keyCode="VK_SHIFT" kind="KEY_PRESSED" modifiers="SHIFT_MASK" type="KeyEvent" />
+      <action args="DigitTextField Instance 2,selection-begin-line" class="javax.swing.JComponent" method="actionActionMap" />
+      <event component="DigitTextField Instance 2" keyCode="VK_SHIFT" kind="KEY_RELEASED" type="KeyEvent" />
+      <action args="DigitTextField Instance 2,VK_NUMPAD1" method="actionKeyStroke" />
+      <action args="DigitTextField Instance 2,VK_TAB" method="actionKeyStroke" />
+      <event component="DigitTextField Instance 3" keyCode="VK_SHIFT" kind="KEY_PRESSED" modifiers="SHIFT_MASK" type="KeyEvent" />
+      <action args="DigitTextField Instance 3,selection-begin-line" class="javax.swing.JComponent" method="actionActionMap" />
+      <event component="DigitTextField Instance 3" keyCode="VK_SHIFT" kind="KEY_RELEASED" type="KeyEvent" />
+      <action args="DigitTextField Instance 3,-" method="actionKeyString" />
+      <action args="DigitTextField Instance 3,VK_NUMPAD5" method="actionKeyStroke" />
+      <action args="DigitTextField Instance 3,VK_TAB" method="actionKeyStroke" />
+      <event component="DigitTextField Instance 4" keyCode="VK_SHIFT" kind="KEY_PRESSED" modifiers="SHIFT_MASK" type="KeyEvent" />
+      <action args="DigitTextField Instance 4,selection-begin-line" class="javax.swing.JComponent" method="actionActionMap" />
+      <event component="DigitTextField Instance 4" keyCode="VK_SHIFT" kind="KEY_RELEASED" type="KeyEvent" />
+      <action args="DigitTextField Instance 4,VK_NUMPAD5" method="actionKeyStroke" />
+      <action args="D&lt;/u&gt;raw&lt;/body" class="javax.swing.AbstractButton" method="actionClick" />
+    </sequence>
+  </sequence>
+  <terminate />
+</AWTTestScript>
+
