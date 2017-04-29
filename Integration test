@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AWTTestScript>
+  <launch args="[]" class="com.main.Main" classpath="Project4-Plotter.jar" method="main" />
+  <terminate />
+</AWTTestScript>
+
